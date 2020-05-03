@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS på tre måder</title>
+    <style>
+        .intern {
+            font-family: georgia; font-size: 24px; color: chocolate;
+        }
+    </style>
+    <link rel="stylesheet" href="eksternt-stylesheet.css">
+</head>
+<body>
+    <p style="font-family: helvetica; font-size: 24px; color: cornflowerblue;">Denne tekst er stylet med <b>"inline CSS"</b>.<br>- CSS-koden befinder sig i det enkelte HTML-tag og den kan kun påvirke dette ene tag.</p>
+    <p class="intern">Denne tekst er stylet med et <b>"internt stylesheet"</b>.<br>- CSS-koden befinder sig i HTML-sidens head-sektion. CSS-koden kan påvirke hele siden.</p>
+    <p class="ekstern">Denne tekst er stylet med et <b>"eksternt stylesheet"</b>.<br>- CSS-koden befinder sig i en anden fil og den kan påvirke alle de HTML-sider, som refererer til den.</p>
+</body>
+</html>
