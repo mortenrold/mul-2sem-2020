@@ -1,0 +1,9 @@
+/* her overskriver jeg en eksisterende bootstrap-klasse */
+.text-success {
+    color: blue;
+}
+
+/* jeg kan også lave mine egne styles */
+.min-egen-klasse {
+    color: beige;
+}

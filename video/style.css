@@ -1,0 +1,12 @@
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* gælder for videoer, der er i 16:9-format (9/16=56,25) */
+    overflow: hidden;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
