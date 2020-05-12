@@ -1,0 +1,20 @@
+/* vælg alle imf med en alt-attribut */
+img[alt] {
+    border: 3px solid cornflowerblue;
+}
+
+/* vælg billeder med ordet "Flyvefisk" i alt-atributten */
+img[alt="Flyvefisk"] {
+    border: 3px solid goldenrod;
+}
+
+/* vælg alle klasser, der starter med "col" */
+div[class^="col"] {
+    background: #ddd;
+    padding: 30px;
+}
+
+/* vælg alle umiddelbare efterkommere af de klasser der starter med "col" */
+div[class^="col"]>* {
+    background: coral;
+}    

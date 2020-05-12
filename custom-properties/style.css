@@ -1,0 +1,22 @@
+/* variabler (også kaldet "custom properties") */
+:root { /* i HTML-dokumenter er root det samme som <html> */
+    --brand-color: #20639d;
+    --brand-font: helvetica, sans-serif;
+    --space: 21px;
+}
+
+
+h1 {
+    font-family: var(--brand-font);
+    color: var(--brand-color);
+}
+p {
+    font-family: var(--brand-font);
+    color: var(--brand-color);
+}
+button {
+    background: var(--brand-color);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}

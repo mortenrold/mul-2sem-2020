@@ -1,0 +1,52 @@
+@keyframes background {
+    from {background-color: white;}
+    to {background-color: crimson;}
+}
+@keyframes headline {
+    0% {top: 0px; left: 0px;}
+    100% {top: 30px; left: 0px;}
+}
+@keyframes bounce {
+    0% {top: 0px; left: -300px;}
+    55% {top: 0px; left: 30px;}
+    70% {top: 0px; left: -30px;}
+    85% {top: 0px; left: 5px;}
+    100% {top: 0px; left: 0px;}
+}
+
+body {
+    background-color: crimson;
+    animation-name: background;
+    animation-duration: 3s;
+}
+
+h1 {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    animation: headline 2s;
+    font-family: helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+button {
+    padding: 15px 25px;
+    border: none;
+    background: #be9901;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    margin-top: 40px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    animation: bounce 3s;
+}
+.rabattekst {
+    font-weight: normal;
+}
+
+
+

@@ -1,0 +1,10 @@
+/* her importerer jeg nogle andre stylesheets */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+/* Mit eget primære stylesheet */
+@import 'main.css';
+
+/* CSS til store skærme */
+@import 'desktop.css';

@@ -1,0 +1,13 @@
+body {
+    font-family: helvetica, sans-serif;
+    color: cornflowerblue;
+}
+i {
+    font-size: 24px;
+    padding-bottom: 4px;
+    margin-right: 8px;
+}
+p {
+    display: flex;
+    align-items: center;
+}
